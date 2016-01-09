@@ -5,8 +5,8 @@ var quoteSchema   = new Schema({
     text: String,
     author: String,
     local: { type: Boolean, default: false },
-    created_at: { type: Date, default: Date.now },
-    active_at: { type: Date, default: Date.now }
-});
+    createdAt: { type: Date, default: Date.now },
+    activeAt: { type: Date, default: Date.now }},
+    { collection: 'quote' });
 
 module.exports = mongoose.model('Quote', quoteSchema);
