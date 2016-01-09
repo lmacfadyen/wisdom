@@ -1,0 +1,9 @@
+{
+    "name": "quotes",
+    "main": "server.js",
+    "dependencies": {
+        "express": "~4.13.3",
+        "mongoose": "~4.3.4",
+        "body-parser": "~1.14.2"
+    }
+}
